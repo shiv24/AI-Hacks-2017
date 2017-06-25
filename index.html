@@ -1,11 +1,39 @@
-<!doctype html>
-<html lang="en">
-  <head>
-  	<link rel="stylesheet" type="text/css" href=style.css>
-    <meta charset="UTF-8">
-    <title>Document</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>textBoxes.html</title>
+ <script type = "text/javascript">
+  // from textBoxes.html
+  function sayHi(){
+  var txtName = document.getElementById("txtName");
+  var txtOutput = document.getElementById("txtOutput");
 
-  </body>
+  var url_var = {
+    main_var: name;
+  }
+  
+  var name = txtName.value;
+  txtOutput.value = "This article is" + name + "!"
+  } // end sayHi
+ </script>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "textBoxes.css" />
+ </head>
+ <body>
+ <h1>Legiti-Mate</h1>
+ <form action = "">
+  <fieldset>
+  <label>Enter url: </label>
+  <input type = "text"
+    id = "txtName" />
+  <input type = "button"
+    value = "check"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "txtOutput" />
+  </fieldset>
+ </form>
+ </body>
 </html>

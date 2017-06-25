@@ -16,4 +16,6 @@ X_ka = vectorizer.transform(data_arr)
 tfidf_ka = transformer.transform(X_ka)
 
 lr_predict = lr.predict(tfidf_ka)
-print(lr_predict)
+file = open('prediction.txt', 'w')
+# print(lr_predict)
+file.write(lr_predict)

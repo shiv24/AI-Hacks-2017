@@ -31,10 +31,10 @@ body {
 
 .text {
   position: absolute;
-  top: 303px;
-  left: 24%;
+  top: 347px;
+  left: 25.1666666666%;
   z-index: 2;
-  width: 600px;
+  width: 696px;
   min-height: 37px;
   font-size: 1em;
   color: rgb(0, 0, 0);

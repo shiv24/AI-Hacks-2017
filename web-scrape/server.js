@@ -26,10 +26,11 @@ var uri = "http://www.huffingtonpost.ca/2017/06/23/tom-mulcair-raises-red-flags-
                 } else {
                     // done
                 }
-})
-
-                console.log(text);
+                })
             })
+
+            var result = $('meta[property="og:title"]').attr('content');
+            console.log(result);
             
         }
 

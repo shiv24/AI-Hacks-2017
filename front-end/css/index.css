@@ -18,6 +18,21 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.button-check {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 94px;
+  height: 32px;
+  margin-left: 0.7838541666%;
+  border-radius: 3px;
+  background-color: rgb(38, 186, 75);
+  font-size: 1.067em;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+
 .button-contact {
   display: block;
   float: left;
@@ -30,6 +45,22 @@ body {
   line-height: 2;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+
+.button-credit {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 12;
+  width: 91px;
+  height: 32px;
+  margin: -32px 0 0 70.4%;
+  border-radius: 3px;
+  background-color: rgb(38, 186, 75);
+  font-size: 1.067em;
+  line-height: 2;
+  color: rgb(255, 255, 255);
 }
 
 .button-faq {
@@ -78,25 +109,12 @@ body {
   color: #ffffff;
 }
 
-.check {
-  display: block;
-  float: left;
-  width: 150px;
-  height: 32px;
-  margin-left: 1.0625%;
-  border-radius: 3px;
-  background-color: rgb(38, 186, 75);
-  font-size: 1.067em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
 .check-url {
   position: absolute;
   top: 387px;
   left: 0;
   right: 0;
-  z-index: 12;
+  z-index: 13;
   width: 100%;
   height: 32px;
   margin: 0 auto;
@@ -111,12 +129,10 @@ body {
 
 .icon {
   display: block;
-  position: relative;
   float: left;
-  z-index: 6;
   width: 170px;
   height: auto;
-  margin: 59px 0 0 11.9987%;
+  margin: 59px 0 0 11.9976%;
   overflow: hidden;
 }
 

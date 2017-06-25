@@ -1,0 +1,193 @@
+body {
+  background-color: #ffffff;
+  font: normal 0.938em/1.38 'Century Gothic Bold';
+  color: rgb(255, 255, 255);
+}
+
+.button-about {
+  display: block;
+  float: left;
+  width: 183px;
+  height: 32px;
+  margin-top: 14px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1.067em;
+  line-height: 2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.button-check {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 94px;
+  height: 32px;
+  margin-left: 0.7838541666%;
+  border-radius: 3px;
+  background-color: rgb(38, 186, 75);
+  font-size: 1.067em;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+
+.button-contact {
+  display: block;
+  float: left;
+  width: 183px;
+  height: 32px;
+  margin: 15px 0 0 4.01003%;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1.067em;
+  line-height: 2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.button-credit {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 12;
+  width: 91px;
+  height: 32px;
+  margin: -32px 0 0 70.4%;
+  border-radius: 3px;
+  background-color: rgb(38, 186, 75);
+  font-size: 1.067em;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+
+.button-faq {
+  display: block;
+  float: left;
+  width: 182px;
+  height: 32px;
+  margin: 15px 0 0 19px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1.067em;
+  line-height: 2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.button-privacypolicy {
+  display: block;
+  float: left;
+  width: 182px;
+  height: 32px;
+  margin: 15px 0 0 52px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1.067em;
+  line-height: 2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.button-report {
+  display: block;
+  position: absolute;
+  top: 67px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  width: 300px;
+  height: 32px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #565656;
+  font-size: 1.067em;
+  line-height: 2;
+  text-align: center;
+  color: #ffffff;
+}
+
+.check-url {
+  position: absolute;
+  top: 387px;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 100%;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.icon {
+  display: block;
+  float: left;
+  width: 170px;
+  height: auto;
+  margin: 59px 0 0 11.9976%;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 256px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  width: 574px;
+  min-height: 22px;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  display: block;
+  position: absolute;
+  top: 133px;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  width: 591px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.url {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 9;
+  width: 490px;
+  height: 30px;
+  margin-left: 22.79948%;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+
+.container-1 {
+  top: 0;
+  z-index: 8;
+  width: 1300px;
+  height: 310px;
+  background-color: rgb(67, 146, 207);
+}
+
+.container-2 {
+  top: 550px;
+  z-index: 4;
+  width: 69.5846354166%;
+  height: 63px;
+}

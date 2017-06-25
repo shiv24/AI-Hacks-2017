@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>results</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/results-grid.css">
+  <link rel="stylesheet" href="css/results.css">
+</head>
+<body class="body page-results clearfix">
+  <header class="container clearfix">
+    <header class="maintitle">Results</header>
+    <div class="wrapper"><html>
+
+	<head>
+	<title>Reading from text files</title>
+	</head>
+	<body>
+
+	<?php
+
+$f = fopen("../data-model/prediction.txt", "r");
+
+	// Read line from the text file and write the contents to the client
+	echo fgets($f); 
+
+	fclose($f);
+
+	?>
+
+	
+  <script src="js/jquery-min.js"></script>
+</body>
+</html>
+	</html></div>
+    <a href="index.html" class="button-tohome"></a>
+  </header>
+</body>

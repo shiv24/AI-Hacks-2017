@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: Bold 4.375em/1.38 'Century Gothic';
+  color: rgb(255, 255, 255);
+}
+
+.button-tohome {
+  display: block;
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  z-index: 2;
+  width: 2.8333333333%;
+  height: 24px;
+  border-radius: 3px;
+  background: url('../images/ic_trending_flat_black_24dp(4).png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  font-size: 0.229em;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 1300px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: rgb(67, 146, 207);
+}
+
+.maintitle {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  right: 0;
+  width: 796px;
+  min-height: 22px;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  float: left;
+  width: 47.6%;
+  height: 84px;
+  margin: 226px 0 0 28.0613%;
+  overflow: hidden;
+}
